@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.1rem;
+  height: 3.1rem;
+  border: 0.918357px solid rgba(76, 123, 243, 0.15);
+  border-radius: 50%;
+}

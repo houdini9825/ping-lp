@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+  --color-blue: hsl(223, 87%, 63%);
+  --color-pale-blue: hsl(223, 100%, 88%);
+  --color-light-red: hsl(354, 100%, 66%);
+  --color-gray: hsl(0, 0%, 59%);
+  --color-dark-blue: hsl(209, 33%, 12%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+  font-family: inherit;
 }
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+#root {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

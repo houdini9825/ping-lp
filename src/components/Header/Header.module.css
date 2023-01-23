@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #15202A;
+}
+
+.launch {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  
+  /* identical to box height, or 145% */
+  text-align: center;
+  
+  color: #969696;
+  margin-top: 3.2rem;
+}
+
+.span {
+  font-weight: 700;
+  color: #15202A;
+}
+
+.subscribe {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  
+  /* identical to box height */
+  text-align: center;
+  
+  color: #15202A;
+  margin-top: 1.5rem;
+}
